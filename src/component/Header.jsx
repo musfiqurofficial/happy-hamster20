@@ -62,12 +62,12 @@ export const Header = () => {
         </ul>
         <ul className="flex items-center hidden space-x-6 lg:flex">
           <li>
-            <a href="/" className="" aria-label="twitter" title="twitter">
+            <a href="https://x.com/HHamster20?s=09" className="" aria-label="twitter" title="twitter">
               <img src={twitter} alt="" className="w-auto h-[60px]" />
             </a>
           </li>
           <li>
-            <a href="/" className="" aria-label="telegram" title="telegram">
+            <a href="https://t.me/happyhamster20" className="" aria-label="telegram" title="telegram">
               <img src={telegram} alt="" className="w-auto h-[60px]" />
             </a>
           </li>
@@ -137,6 +137,7 @@ export const Header = () => {
                     <li>
                       <a
                         href="#tokenomics"
+                      
                         aria-label="Tokenomics"
                         title="Tokenomics"
                         className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
@@ -147,7 +148,7 @@ export const Header = () => {
                     <div className="flex justify-start items-center gap-4">
                       <li className="">
                         <a
-                          href="/"
+                          href="https://x.com/HHamster20?s=09"
                           className=""
                           aria-label="twitter"
                           title="twitter"
@@ -161,7 +162,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="/"
+                          href="https://t.me/happyhamster20"
                           className=""
                           aria-label="telegram"
                           title="telegram"
