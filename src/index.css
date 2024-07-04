@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "node_modules/video-react/dist/video-react.css";
+
+
+/* Define the custom fonts using @font-face */
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('./font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('./font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Ultrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./font/Montserrat/static/Montserrat-Light.ttf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./font/Montserrat/static/Montserrat-Regular.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./font/Montserrat/static/Montserrat-SemiBold.ttf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  font-family: 'MonumentExtended', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #FFFFB8;
+  background-color: #1B0E00;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.button_background{
+  background: linear-gradient(90deg, rgba(255,62,2,1) 0%, rgba(249,165,3,1) 100%);
+}
