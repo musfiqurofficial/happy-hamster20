@@ -3,6 +3,7 @@ import logo from "../assets/Branding.png";
 import twitter from "../assets/twitter Button.png";
 import telegram from "../assets/telegram Button.png";
 import menu from "../assets/twitter Button (1).png";
+import { Link } from "react-scroll";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,54 +21,65 @@ export const Header = () => {
         </a>
         <ul className="flex items-center hidden space-x-8 lg:flex">
           <li>
-            <a
-              href="#about"
-              aria-label="About us"
-              title="About us"
-              className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
             >
               About us
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a
-              href="#mission"
-              aria-label="Mission"
-              title="Mission"
-              className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+            <Link
+              to="mission"
+              smooth={true}
+              duration={500}
+              className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
             >
               Mission
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#roadmap"
-              title="Roadmap"
-              className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+            <Link
+              to="roadmap"
+              smooth={true}
+              duration={500}
+              className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
             >
               Roadmap
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#tokenomics"
-              aria-label="Tokenomics"
-              title="Tokenomics"
-              className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+            <Link
+              to="tokenomics"
+              smooth={true}
+              duration={500}
+              className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
             >
               Tokenomics
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="flex items-center hidden space-x-6 lg:flex">
           <li>
-            <a href="https://x.com/HHamster20?s=09" className="" aria-label="twitter" title="twitter">
+            <a
+              href="https://x.com/HHamster20?s=09"
+              className=""
+              aria-label="twitter"
+              title="twitter"
+            >
               <img src={twitter} alt="" className="w-auto h-[60px]" />
             </a>
           </li>
           <li>
-            <a href="https://t.me/happyhamster20" className="" aria-label="telegram" title="telegram">
+            <a
+              href="https://t.me/happyhamster20"
+              className=""
+              aria-label="telegram"
+              title="telegram"
+            >
               <img src={telegram} alt="" className="w-auto h-[60px]" />
             </a>
           </li>
@@ -105,45 +117,45 @@ export const Header = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a
-                        href="#about"
-                        aria-label="About us"
-                        title="About us"
-                        className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+                      <Link
+                        to="about"
+                        smooth={true}
+                        duration={500}
+                        className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
                       >
                         About us
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
-                      <a
-                        href="#mission"
-                        aria-label="Mission"
-                        title="Mission"
-                        className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+                      <Link
+                        to="mission"
+                        smooth={true}
+                        duration={500}
+                        className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
                       >
                         Mission
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#roadmap"
-                        title="Roadmap"
-                        className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+                      <Link
+                        to="roadmap"
+                        smooth={true}
+                        duration={500}
+                        className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
                       >
                         Roadmap
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#tokenomics"
-                      
-                        aria-label="Tokenomics"
-                        title="Tokenomics"
-                        className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+                      <Link
+                        to="tokenomics"
+                        smooth={true}
+                        duration={500}
+                        className="text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
                       >
                         Tokenomics
-                      </a>
+                      </Link>
                     </li>
                     <div className="flex justify-start items-center gap-4">
                       <li className="">

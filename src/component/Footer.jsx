@@ -1,6 +1,7 @@
 import logo from "../assets/Branding.png";
 import twitter from "../assets/twitter Button.png";
 import telegram from "../assets/telegram Button.png";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -17,56 +18,74 @@ const Footer = () => {
           </a>
           <ul className="flex items-center space-x-2 md:space-x-8 lg:flex">
             <li>
-              <a
-                href="#about"
-                aria-label="About us"
-                title="About us"
-                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
               >
                 About us
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
-                href="#mission"
-                aria-label="Mission"
-                title="Mission"
-                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+              <Link
+                to="mission"
+                smooth={true}
+                duration={500}
+                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
               >
                 Mission
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#roadmap"
-                aria-label="Roadmap"
-                title="Roadmap"
-                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+              <Link
+                to="roadmap"
+                smooth={true}
+                duration={500}
+                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
               >
                 Roadmap
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#tokenomics"
-                aria-label="Tokenomics"
-                title="Tokenomics"
-                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase"
+              <Link
+                to="tokenomics"
+                smooth={true}
+                duration={500}
+                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
               >
                 Tokenomics
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="flex items-center space-x-2 md:space-x-6 lg:flex">
             <li>
-              <a href="https://x.com/HHamster20?s=09" className="" aria-label="twitter" title="twitter">
-                <img src={twitter} alt="" className="w-auto h-[15px] md:h-[60px]" />
+              <a
+                href="https://x.com/HHamster20?s=09"
+                className=""
+                aria-label="twitter"
+                title="twitter"
+              >
+                <img
+                  src={twitter}
+                  alt=""
+                  className="w-auto h-[15px] md:h-[60px]"
+                />
               </a>
             </li>
             <li>
-              <a href="https://t.me/happyhamster20" className="" aria-label="telegram" title="telegram">
-                <img src={telegram} alt="" className="w-auto h-[15px] md:h-[60px]" />
+              <a
+                href="https://t.me/happyhamster20"
+                className=""
+                aria-label="telegram"
+                title="telegram"
+              >
+                <img
+                  src={telegram}
+                  alt=""
+                  className="w-auto h-[15px] md:h-[60px]"
+                />
               </a>
             </li>
           </ul>
@@ -84,7 +103,9 @@ const Footer = () => {
       </div>
       <div className="bg-[#200800]">
         <div className="px-5 py-3 md:py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1315px]  flex justify-between items-center">
-          <p className="text-[6px] md:text-[15px] font-normal">2024 by HappyHamster</p>
+          <p className="text-[6px] md:text-[15px] font-normal">
+            2024 by HappyHamster
+          </p>
           <p className="text-[6px] md:text-[15px] Montserrat font-normal">
             All rights reserved
           </p>

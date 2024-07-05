@@ -63,3 +63,27 @@
 .button_background{
   background: linear-gradient(90deg, rgba(255,62,2,1) 0%, rgba(249,165,3,1) 100%);
 }
+
+#slider {
+  display: flex;
+  white-space: nowrap;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#slider li {
+  flex-shrink: 0;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}

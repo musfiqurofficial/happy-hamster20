@@ -8,26 +8,34 @@ import Mission from "./component/Mission";
 import Roadmap from "./component/Roadmap";
 import Tokenomices from "./component/Tokenomices";
 import Bottom from "./component/Bottom";
+import { Element } from "react-scroll";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="relative">
       <img src={Ellipse} alt="" className="absolute top-0" />
       <Header />
       <HeroAria />
-      <div id="about">
+      <Element name="about">
         <About />
-      </div>
+      </Element>
       <VideoSection />
-      <div id="mission">
+      <Element name="mission">
         <Mission />
-      </div>
-      <div id="roadmap">
+      </Element>
+      <Element name="roadmap">
         <Roadmap />
-      </div>
-      <div id="tokenomics">
+      </Element>
+      <Element name="tokenomics">
         <Tokenomices />
-      </div>
+      </Element>
       <Bottom />
       <Footer />
     </div>

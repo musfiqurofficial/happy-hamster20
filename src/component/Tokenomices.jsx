@@ -24,7 +24,8 @@ const Tokenomices = () => {
                 </p>
               </div>
               <div className="flex justify-start items-center gap-3">
-                <img src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
+                <img data-aos="fade-right"
+          data-aos-duration="1000" src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
                 <div>
                   <h5 className="text-[22px] md:text-[30px] md:leading-[23px]">15%</h5>
                   <p className="Montserrat font-light text-[10px] md:text-[20px] leading-[23px] mt-2">
@@ -33,7 +34,8 @@ const Tokenomices = () => {
                 </div>
               </div>
               <div className="flex justify-start items-center gap-3">
-                <img src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
+                <img data-aos="fade-right"
+          data-aos-duration="1000" src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
                 <div>
                   <h5 className="text-[22px] md:text-[30px] md:leading-[23px]">25%</h5>
                   <p className="Montserrat font-light text-[10px] md:text-[20px] leading-[23px] mt-2">
@@ -42,7 +44,8 @@ const Tokenomices = () => {
                 </div>
               </div>
               <div className="flex justify-start items-center gap-3">
-                <img src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
+                <img data-aos="fade-right"
+          data-aos-duration="1000" src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
                 <div>
                   <h5 className="text-[22px] md:text-[30px] md:leading-[23px]">30%</h5>
                   <p className="Montserrat font-light text-[10px] md:text-[20px] leading-[23px] mt-2">
@@ -51,7 +54,8 @@ const Tokenomices = () => {
                 </div>
               </div>
               <div className="flex justify-start items-center gap-3">
-                <img src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
+                <img data-aos="fade-right"
+          data-aos-duration="1000" src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
                 <div>
                   <h5 className="text-[22px] md:text-[30px] md:leading-[23px]">20%</h5>
                   <p className="Montserrat font-light text-[10px] md:text-[20px] leading-[23px] mt-2">
@@ -60,7 +64,8 @@ const Tokenomices = () => {
                 </div>
               </div>
               <div className="flex justify-start items-center gap-3">
-                <img src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
+                <img data-aos="fade-right"
+          data-aos-duration="1000" src={Rectangle} alt="" className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]" />
                 <div>
                   <h5 className="text-[22px] md:text-[30px] md:leading-[23px]">10%</h5>
                   <p className="Montserrat font-light text-[10px] md:text-[20px] leading-[23px] mt-2">
@@ -69,7 +74,8 @@ const Tokenomices = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFFFB8] md:mt-[100px] rounded-lg p-1 md:p-2 flex justify-between md:static absolute z-40 bottom-36">
+            <div data-aos="fade-right"
+          data-aos-duration="500" className="bg-[#FFFFB8] md:mt-[100px] rounded-lg p-1 md:p-2 flex justify-between md:static absolute z-40 bottom-36">
               <button className="relative">
                 <img src={Clipboard} alt="" className="w-[50px] md:w-[70px] h-[45px] md:h-[60px]" />
                 <h3 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:text-[25px] ">
@@ -93,7 +99,8 @@ const Tokenomices = () => {
             </div>
           </div>
           <div className="relative">
-            <img src={rightImg} alt="" className="relative z-20" />
+            <img data-aos="fade-up-left"
+          data-aos-duration="1000" src={rightImg} alt="" className="relative z-20" />
           </div>
         </div>
       </div>

@@ -10,10 +10,34 @@ const Bottom = () => {
         Spreading joy and financial freedom through innovative cryptocurrency
         solutions.
       </h2>
-      <img src={topLeft} alt="" className="w-auto h-[38px] md:h-[130px] absolute top-0 md:-top-[70px] left-4 md:-left-20" />
-      <img src={bottomLeft} alt="" className="w-auto h-[30px] md:h-[100px] absolute bottom-1 md:-bottom-[10px] left-20 md:left-[100px]" />
-      <img src={topRight} alt="" className="w-auto h-[26px] md:h-[80px] absolute top-0 md:top-[30px] right-4 md:-right-[30px]" />
-      <img src={bottomRight} alt="" className="w-auto h-[45px] md:h-[150px] absolute -bottom-4 md:-bottom-[30px] right-14 md:-right-[30px]" />
+      <img
+        data-aos="fade-down-left"
+        data-aos-duration="1000"
+        src={topLeft}
+        alt=""
+        className="w-auto h-[38px] md:h-[130px] absolute top-0 md:-top-[70px] left-4 md:-left-20"
+      />
+      <img
+        data-aos="fade-up-left"
+        data-aos-duration="1000"
+        src={bottomLeft}
+        alt=""
+        className="w-auto h-[30px] md:h-[100px] absolute bottom-1 md:-bottom-[10px] left-20 md:left-[100px]"
+      />
+      <img
+        data-aos="ade-down-right"
+        data-aos-duration="1000"
+        src={topRight}
+        alt=""
+        className="w-auto h-[26px] md:h-[80px] absolute top-0 md:top-[30px] right-4 md:-right-[30px]"
+      />
+      <img
+        data-aos="fade-up-right"
+        data-aos-duration="1000"
+        src={bottomRight}
+        alt=""
+        className="w-auto h-[45px] md:h-[150px] absolute -bottom-4 md:-bottom-[30px] right-14 md:-right-[30px]"
+      />
     </div>
   );
 };

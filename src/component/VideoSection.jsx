@@ -7,11 +7,21 @@ const VideoSection = () => {
   return (
     <div className="mb-[100px] mt-[100px] md:mt-[200px] relative">
       <div className="px-5 md:px-24 lg:px-0 mx-auto w-full max-w-[1150px] text-center">
-        <h3 className="text-[20px] md:text-[52px] font-[800]">WATCH THE VIDEO BELOW</h3>
+        <h3
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          className="text-[20px] md:text-[52px] font-[800]"
+        >
+          WATCH THE VIDEO BELOW
+        </h3>
         <p className="text-[10px] md:text-[20px] Montserrat font-light mt-3 md:mt-2 md:mb-[70px]">
           Check out this video to understand more about HappyHamster20
         </p>
-        <div className="button_background w-full h-auto rounded-md border-[2px] border-[#FFEBA0] relative z-30 mt-10 md:mt-0">
+        <div
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+          className="button_background w-full h-auto rounded-md border-[2px] border-[#FFEBA0] relative z-30 mt-10 md:mt-0"
+        >
           <div>
             <video
               controls
@@ -28,7 +38,11 @@ const VideoSection = () => {
         <img src={Ellipse} alt="" className="w-auto h-[1200px] object-cover" />
       </div>
       <div className="absolute top-[120%] transform -translate-y-1/2 right-0">
-        <img src={EllipseRight} alt="" className="w-auto h-[1200px] object-cover" />
+        <img
+          src={EllipseRight}
+          alt=""
+          className="w-auto h-[1200px] object-cover"
+        />
       </div>
     </div>
   );
