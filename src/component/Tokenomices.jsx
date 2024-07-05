@@ -75,7 +75,7 @@ const Tokenomices = () => {
               </div>
             </div>
             <div data-aos="fade-right"
-          data-aos-duration="1000" className="bg-[#FFFFB8] md:mt-[100px] rounded-lg p-1 md:p-2 flex justify-between md:static absolute z-40 bottom-[230px]">
+          data-aos-duration="1000" className="bg-[#FFFFB8] md:mt-[100px] rounded-lg p-1 md:p-2 flex justify-between md:static absolute z-40 bottom-[220px]">
               <button className="relative">
                 <img src={Clipboard} alt="" className="w-[50px] md:w-[70px] h-[45px] md:h-[60px]" />
                 <h3 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:text-[25px] ">
