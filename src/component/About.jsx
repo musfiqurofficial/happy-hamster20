@@ -11,7 +11,7 @@ const About = () => {
           </button>
         </center>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-14">
-          <div className="flex flex-col justify-between items-start gap-5 md:gap-[30px] md:w-[65%]">
+          <div className="flex flex-col justify-between items-start gap-5 md:gap-[30px] lg:w-[65%]">
             <h3
               data-aos="fade-right"
               data-aos-duration="1000"

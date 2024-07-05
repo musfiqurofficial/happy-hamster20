@@ -52,7 +52,7 @@ const Mission = () => {
                 data-aos-duration="1000"
                 src={data.image}
                 alt={data.title}
-                className="rounded-md w-auto h-full md:max-h-[250px] mb-4 object-cover"
+                className="rounded-md w-auto md:h-full md:max-h-[250px] mb-4 object-cover"
               />
               <h5 className="text-[14px] md:text-[25px] mb-2">{data.title}</h5>
               <p className="text-[8px] md:text-[12px] Montserrat leading-5 md:leading-[23px] px-3">

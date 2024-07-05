@@ -4,37 +4,43 @@ const Roadmap = () => {
   const hamstermapData = [
     {
       id: 1,
-      title: "PRESALE & MARKETING",
+      title1: "PRESALE &",
+      title2: "MARKETING",
       description:
         "HappyHamster20 launches the presale. Early investors get a preferential price. The team uses part of the proceeds for a professional marketing strategy.",
     },
     {
       id: 2,
-      title: "INCENTIVE & INVESTMENT",
+      title1: "INCENTIVE &",
+      title2: "INVESTMENT",
       description:
         "Investors have the opportunity to acquire tokens during the presale. After the successful launch, one of the presale investors will receive a Tesla Model S as a prize.",
     },
     {
       id: 3,
-      title: "TOKEN CLAIMING",
+      title1: "TOKEN",
+      title2: "CLAIMING",
       description:
         "To ensure a fair start of HappyHamster20, presale investors can claim their tokens on the website simultaneously with the exchange listing.",
     },
     {
       id: 4,
-      title: "DEX LAUNCH",
+      title1: "DEX",
+      title2: "LAUNCH",
       description:
         "HappyHamster20 will be launched on PancakeSwap, one of the most popular decentralized exchanges. This provides the best trading environment and early liquidity.",
     },
     {
       id: 5,
-      title: "PROVIDED LIQUIDITY",
+      title1: "PROVIDED",
+      title2: "LIQUIDITY",
       description:
         "The HappyHamster20 team will provide a substantial liquidity pool on PancakeSwap. To this end, 10% of the total token supply has been set aside.",
     },
     {
       id: 6,
-      title: "FUTURE PROSPECTS",
+      title1: "FUTURE",
+      title2: "PROSPECTS",
       description:
         "The HappyHamster20 team plans to distribute airdrops to the community irregularly in the future.",
     },
@@ -58,22 +64,31 @@ const Roadmap = () => {
           {hamstermapData.map((data) => (
             <div
               key={data.id}
-              className="grid grid-cols-2 gap-[0px] border-t-2 border-[#FFFFB8] py-[40px]"
+              className="grid grid-cols-2 gap-[10px] md:gap-0 border-t-[1px] md:border-t-2 border-[#FFFFB8] py-4 md:py-[40px]"
             >
               <p
                 data-aos="fade-left"
                 data-aos-duration="2000"
-                className="Montserrat text-[6px] md:text-[16px] lg:text-[24px] font-light leading-5 md:leading-[43px] "
+                className="Montserrat text-[8px] md:text-[16px] lg:text-[24px] font-light leading-3 md:leading-[43px] "
               >
                 {data.description}
               </p>
-              <h4
-                data-aos="fade-right"
-                data-aos-duration="3000"
-                className="text-[20px] md:text-[36px] lg:text-[60px] md:leading-[73px] text-end"
-              >
-                {data.title}
-              </h4>
+              <div>
+                <h4
+                  data-aos="fade-right"
+                  data-aos-duration="3000"
+                  className="text-[18px] md:text-[36px] lg:text-[60px] md:leading-[73px] text-end"
+                >
+                  {data.title1}
+                </h4>
+                <h4
+                  data-aos="fade-right"
+                  data-aos-duration="3000"
+                  className="text-[18px] md:text-[36px] lg:text-[60px] md:leading-[73px] text-end"
+                >
+                  {data.title2}
+                </h4>
+              </div>
             </div>
           ))}
         </div>
