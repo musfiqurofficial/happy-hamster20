@@ -40,24 +40,24 @@ const Roadmap = () => {
     },
   ];
   return (
-    <div className="mb-[100px] mt-[200px] relative">
-      <div className="px-5 mx-auto w-full max-w-[1300px]">
+    <div className="mb-[100px] mt-[100px] md:mt-[200px] relative">
+      <div className="px-5 md:px-24 lg:px-0 mx-auto w-full max-w-[1300px]">
         <center>
-          <button className="inline-flex text-[18px] font-normal button_background px-[50px] py-5 rounded-md border-[2px] border-[#FFEBA0] mb-[30px]">
+          <button className="inline-flex text-[12px] md:text-[18px] font-normal button_background px-8 md:px-[50px] py-3 md:py-5 rounded-md md:border-[2px] border-[#FFEBA0] mb-[60px] md:mb-[90px]">
             Roadmap
           </button>
-          <h2 className="text-[80px] font-[800]">Hamstermap</h2>
+          <h2 className="text-[32px] md:text-[80px] font-[800]">Hamstermap</h2>
         </center>
-        <div className="mt-[80px]">
+        <div className="mt-[40px] md:mt-[80px]">
           {hamstermapData.map((data) => (
             <div
               key={data.id}
               className="grid grid-cols-2 gap-[0px] border-t-2 border-[#FFFFB8] py-[40px]"
             >
-              <p className="Montserrat text-[24px] font-light leading-[43px] ">
+              <p className="Montserrat text-[6px] md:text-[16px] lg:text-[24px] font-light leading-5 md:leading-[43px] ">
                 {data.description}
               </p>
-              <h4 className="text-[60px] leading-[73px] text-end">
+              <h4 className="text-[22px] md:text-[36px] lg:text-[60px] md:leading-[73px] text-end">
                 {data.title}
               </h4>
             </div>

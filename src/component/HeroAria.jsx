@@ -6,7 +6,7 @@ import SlideBanner from "./SlideBanner";
 const HeroAria = () => {
   return (
     <div className="relative my-[50px] md:my-[100px]">
-      <div className="px-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1315px]  text-center uppercase">
+      <div className="px-5 md:px-24 lg:px-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1315px]  text-center uppercase">
         <div className="flex flex-col gap-[30px] md:gap-[75px] leading-3">
           <h3 className="text-[18px] md:text-[40px] ">Welcome to</h3>
           <h1 className="text-[50px] md:text-[140px] font-[800] mb-2 md:mb-14">Happy</h1>

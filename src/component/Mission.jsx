@@ -29,7 +29,7 @@ const Mission = () => {
   ];
   return (
     <div className="mb-[100px] mt-[100px] md:mt-[200px] relative">
-      <div className="px-5 mx-auto w-full max-w-[1300px]">
+      <div className="px-5 md:px-24 lg:px-0 mx-auto w-full max-w-[1300px]">
         <center>
           <button className="inline-flex text-[12px] md:text-[18px] font-normal button_background px-8 md:px-[50px] py-3 md:py-5 rounded-md md:border-[2px] border-[#FFEBA0] mb-[40px] md:mb-[90px]">
             Mission
@@ -41,19 +41,19 @@ const Mission = () => {
             transform the world of cryptocurrency, one happy moment at a time.
           </p>
         </center>
-        <div className="grid md:grid-cols-3 gap-[50px] mt-[40px] md:mt-[50px] px-10 md:px-0">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[50px] mt-[40px] md:mt-[50px] px-10 md:px-0">
           {missionCard.map((data) => (
             <div
               key={data.id}
-              className="button_background rounded-md border-[2px] border-[#FFEBA0] p-6 text-center"
+              className="button_background rounded-md border-[2px] border-[#FFEBA0] p-5 md:p-6 text-center"
             >
               <img
                 src={data.image}
                 alt={data.title}
-                className="rounded-md w-auto h-[250px] mb-4"
+                className="rounded-md w-auto md:max-h-[250px] mb-4"
               />
-              <h5 className="text-[25px] mb-2">{data.title}</h5>
-              <p className="text-[12px] Montserrat leading-[23px] px-3">
+              <h5 className="text-[14px] md:text-[25px] mb-2">{data.title}</h5>
+              <p className="text-[8px] md:text-[12px] Montserrat leading-5 md:leading-[23px] px-3">
                 {data.description}
               </p>
             </div>

@@ -6,7 +6,7 @@ import video from "../assets/happy hamester.mp4";
 const VideoSection = () => {
   return (
     <div className="mb-[100px] mt-[100px] md:mt-[200px] relative">
-      <div className="px-5 mx-auto w-full max-w-[1150px] text-center">
+      <div className="px-5 md:px-24 lg:px-0 mx-auto w-full max-w-[1150px] text-center">
         <h3 className="text-[20px] md:text-[52px] font-[800]">WATCH THE VIDEO BELOW</h3>
         <p className="text-[10px] md:text-[20px] Montserrat font-light mt-3 md:mt-2 md:mb-[70px]">
           Check out this video to understand more about HappyHamster20
