@@ -49,18 +49,18 @@ const Roadmap = () => {
     <div className="mb-[100px] mt-[100px] md:mt-[200px] relative">
       <div className="px-5 md:px-24 lg:px-0 mx-auto w-full max-w-[1300px]">
         <center>
-          <button className="inline-flex text-[1vw] font-normal button_background px-8 md:px-[50px] py-3 md:py-5 rounded-md md:border-[2px] border-[#FFEBA0] mb-[60px] md:mb-[90px]">
+          <button className="inline-flex text-[12px] md:text-[18px] font-normal button_background px-8 md:px-[50px] py-3 md:py-5 rounded-md md:border-[2px] border-[#FFEBA0] mb-[60px] md:mb-[90px]">
             Roadmap
           </button>
           <h2
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="text-[4vw] font-[800]"
+            className="text-[32px] md:text-[80px] font-[800]"
           >
             Hamstermap
           </h2>
         </center>
-        <div className="mt-[40px] md:mt-[4vw]">
+        <div className="mt-[40px] md:mt-[80px]">
           {hamstermapData.map((data) => (
             <div
               key={data.id}
@@ -69,7 +69,7 @@ const Roadmap = () => {
               <p
                 data-aos="fade-left"
                 data-aos-duration="2000"
-                className="Montserrat text-[1.2vw] font-light leading-3 md:leading-[43px] "
+                className="Montserrat text-[8px] md:text-[16px] lg:text-[24px] font-light leading-3 md:leading-[43px] "
               >
                 {data.description}
               </p>
@@ -77,14 +77,14 @@ const Roadmap = () => {
                 <h4
                   data-aos="fade-right"
                   data-aos-duration="3000"
-                  className="text-[3vw] md:leading-[73px] text-end"
+                  className="text-[18px] md:text-[36px] lg:text-[60px] md:leading-[73px] text-end"
                 >
                   {data.title1}
                 </h4>
                 <h4
                   data-aos="fade-right"
                   data-aos-duration="3000"
-                  className="text-[3vw] md:leading-[73px] text-end"
+                  className="text-[18px] md:text-[36px] lg:text-[60px] md:leading-[73px] text-end"
                 >
                   {data.title2}
                 </h4>
