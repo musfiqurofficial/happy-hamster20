@@ -22,7 +22,7 @@ const Footer = () => {
                 to="about"
                 smooth={true}
                 duration={500}
-                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
+                className="text-[0.885vw] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
               >
                 About us
               </Link>
@@ -33,7 +33,7 @@ const Footer = () => {
                 to="mission"
                 smooth={true}
                 duration={500}
-                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
+                className="text-[0.885vw] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
               >
                 Mission
               </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
                 to="roadmap"
                 smooth={true}
                 duration={500}
-                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
+                className="text-[0.885vw] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
               >
                 Roadmap
               </Link>
@@ -53,7 +53,7 @@ const Footer = () => {
                 to="tokenomics"
                 smooth={true}
                 duration={500}
-                className="text-[5px] md:text-[17.7px] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
+                className="text-[0.885vw] tracking-wide transition-colors duration-200 hover:underline uppercase cursor-pointer"
               >
                 Tokenomics
               </Link>
@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="md:w-full mx-auto w-[80%] md:max-w-[1045px] md:pt-[30px] pb-4 md:pb-[60px]">
-        <p className="text-center text-[6px] md:text-[18px] Montserrat font-light leading-4 md:leading-10 text-[#fffffff3] font-sans ">
+        <p className="text-center text-[0.90vw] Montserrat font-light leading-4 md:leading-10 text-[#fffffff3] font-sans ">
           The information on the HappyHamster20 website is for informational
           purposes only and does not constitute financial, investment, or legal
           advice. Cryptocurrency investments involve a high degree of risk,
@@ -103,10 +103,8 @@ const Footer = () => {
       </div>
       <div className="bg-[#200800]">
         <div className="px-5 py-3 md:py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1315px]  flex justify-between items-center">
-          <p className="text-[6px] md:text-[15px] font-normal">
-            2024 by HappyHamster
-          </p>
-          <p className="text-[6px] md:text-[15px] Montserrat font-normal">
+          <p className="text-[0.75vw] font-normal">2024 by HappyHamster</p>
+          <p className="text-[0.75vw] Montserrat font-normal">
             All rights reserved
           </p>
         </div>

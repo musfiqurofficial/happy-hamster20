@@ -19,26 +19,38 @@ const About = () => {
             >
               HAPPYHAMSTER20?
             </h3>
-            <p data-aos="fade-right"
-              data-aos-duration="2000" className="text-[12px] md:text-[20px] Montserrat font-light text-justify">
+            <p
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              className="text-[12px] md:text-[20px] Montserrat font-light text-justify"
+            >
               In the wild world of the internet, a certain phenomenon has made
               waves: the sad hamster meme.
             </p>
-            <p data-aos="fade-right"
-              data-aos-duration="3000" className="text-[12px] md:text-[20px] Montserrat font-light text-justify">
+            <p
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              className="text-[12px] md:text-[20px] Montserrat font-light text-justify"
+            >
               HappyHamster was repeatedly confronted with this
               &ldquo;gloomy&ldquo; image. But instead of complaining, he decided
               to take matters into his own hands. Thus, the HappyHamster20 team
               was formed, full of energy and good vibes, ready to shake up the
               world with a dose of humor and a big splash of hope.
             </p>
-            <p data-aos="fade-right"
-              data-aos-duration="4000" className="text-[12px] md:text-[20px] Montserrat font-light text-justify">
+            <p
+              data-aos="fade-right"
+              data-aos-duration="4000"
+              className="text-[12px] md:text-[20px] Montserrat font-light text-justify"
+            >
               Combining crypto know-how with a hefty dose of inspiration, they
               aim to show how to make the most of the digital age.
             </p>
-            <button data-aos="fade-right"
-              data-aos-duration="4000" className="text-[12px] md:text-[18px] font-normal button_background px-8 md:px-[50px] py-3 md:py-5 rounded-md md:border-[2px] border-[#FFEBA0] mx-auto md:mx-0">
+            <button
+              data-aos="fade-right"
+              data-aos-duration="4000"
+              className="button-gradient-transition"
+            >
               Get the Whitepaper
             </button>
           </div>
