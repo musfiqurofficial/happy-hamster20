@@ -65,7 +65,7 @@ const Footer = () => {
                 title="twitter"
               >
                 <img
-                  src="https://i.ibb.co/BGQnrVr/telegram-Button.png"
+                  src="https://i.ibb.co/hYCyDd5/twitter-Button.png"
                   alt=""
                   className="w-auto h-[15px] md:h-[60px]"
                 />
@@ -79,7 +79,7 @@ const Footer = () => {
                 title="telegram"
               >
                 <img
-                  src="https://i.ibb.co/hYCyDd5/twitter-Button.png"
+                  src="https://i.ibb.co/BGQnrVr/telegram-Button.png"
                   alt=""
                   className="w-auto h-[15px] md:h-[60px]"
                 />

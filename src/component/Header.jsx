@@ -86,7 +86,7 @@ export const Header = () => {
               title="telegram"
             >
               <img
-                src="https://i.ibb.co/hYCyDd5/twitter-Button.png"
+                src="https://i.ibb.co/BGQnrVr/telegram-Button.png"
                 alt=""
                 className="w-auto h-[60px]"
               />
@@ -193,7 +193,7 @@ export const Header = () => {
                           title="telegram"
                         >
                           <img
-                            src="https://i.ibb.co/hYCyDd5/twitter-Button.png"
+                            src="https://i.ibb.co/BGQnrVr/telegram-Button.png"
                             alt=""
                             className="w-auto h-[50px]"
                           />
