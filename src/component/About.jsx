@@ -46,7 +46,7 @@ const About = () => {
             <button
               data-aos="fade-right"
               data-aos-duration="4000"
-              className="button-gradient-transition"
+              className="button-gradient-transition relative z-40"
             >
               <a
                 href="https://drive.google.com/file/d/1_HFqFN8B3sVpOvuQ25uumbtBsDZcToGz/view?usp=drivesdk"

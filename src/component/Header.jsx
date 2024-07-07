@@ -128,7 +128,7 @@ export const Header = () => {
                   </div>
                 </div>
                 <nav>
-                  <ul className="space-y-4">
+                  <ul className="space-y-4 relative z-40">
                     <li>
                       <Link
                         to="about"
@@ -174,7 +174,7 @@ export const Header = () => {
                       <li className="">
                         <a
                           href="https://x.com/HHamster20?s=09"
-                          className=""
+                          className="relative z-40"
                           aria-label="twitter"
                           title="twitter"
                         >
@@ -188,7 +188,7 @@ export const Header = () => {
                       <li>
                         <a
                           href="https://t.me/happyhamster20"
-                          className=""
+                          className="relative z-40"
                           aria-label="telegram"
                           title="telegram"
                         >
