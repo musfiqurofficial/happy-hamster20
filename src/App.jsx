@@ -1,5 +1,4 @@
 import { Header } from "./component/Header";
-import Ellipse from "./assets/Ellipse 9.png";
 import HeroAria from "./component/HeroAria";
 import Footer from "./component/Footer";
 import About from "./component/About";
@@ -20,7 +19,7 @@ const App = () => {
   }, []);
   return (
     <div className="relative">
-      <img src={Ellipse} alt="" className="absolute top-0" />
+      <img src="https://i.ibb.co/Qp4S46K/Ellipse-9.png" alt="" className="absolute top-0" />
       <Header />
       <HeroAria />
       <Element name="about">

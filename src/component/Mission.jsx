@@ -1,34 +1,30 @@
-import freeedom from "../assets/1djdji 1.png";
-import tesla from "../assets/Hamster Tesla 1.png";
-import charity from "../assets/CHARITY 1.png";
-import EllipseRight from "../assets/Ellipse 10.png";
 
 const Mission = () => {
   const missionCard = [
     {
       id: 1,
-      image: freeedom,
+      image: "https://i.ibb.co/sKWV24W/1djdji-1.png",
       title: "FINANCIAL FREEDOM",
       description:
         "Achieve financial freedom with our monthly rewards! Earn $1,500 every month for 12 months. Be a part of HappyHamster20 and enjoy the peace of mind that comes with consistent financial support.",
     },
     {
       id: 2,
-      image: tesla,
+      image: "https://i.ibb.co/y0LHM92/Hamster-Tesla-1.png",
       title: "TESLA REWARD",
       description:
         "Invest early and drive away in style! All presale investors are automatically entered to win a Tesla Model S. Don’t miss out on this electrifying opportunity—join our presale now!",
     },
     {
       id: 3,
-      image: charity,
+      image: "https://i.ibb.co/ySw5z2K/CHARITY-1.png",
       title: "CHARITY PROJECT",
       description:
         "Making a difference together! We’re donating $100,000 to impactful charity projects. Join us in spreading happiness and support to those in need. Your investment in HappyHamster20 helps create a brighter future for everyone.",
     },
   ];
   return (
-    <div className="mb-[100px] mt-[100px] md:mt-[200px] relative">
+    <div className="mb-[100px] mt-[50px] md:mt-[200px] relative">
       <div className="px-5 md:px-24 lg:px-0 mx-auto w-full max-w-[1300px]">
         <center>
           <button className="inline-flex text-[12px] md:text-[18px] font-normal button_background px-8 md:px-[50px] py-3 md:py-5 rounded-md md:border-[2px] border-[#FFEBA0] mb-[40px] md:mb-[90px]">
@@ -64,7 +60,7 @@ const Mission = () => {
       </div>
       <div className="absolute top-[100%] transform -translate-y-1/2 right-0">
         <img
-          src={EllipseRight}
+          src="https://i.ibb.co/px8KnKr/Ellipse-10.png"
           alt=""
           className="w-auto h-[1200px] object-cover"
         />

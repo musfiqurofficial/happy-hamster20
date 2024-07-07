@@ -1,12 +1,11 @@
-import aboutImg from "../assets/Frame 1.png";
-import Ellipse from "../assets/Ellipse 3.png";
+
 
 const About = () => {
   return (
-    <div className="mb-[100px] mt-[100px] md:mt-[200px] relative">
+    <div className="mb-[50px] mt-[50px] md:mt-[200px] relative">
       <div className="px-5 md:px-24 lg:px-0 mx-auto w-full max-w-[1230px]">
         <center>
-          <button className="inline-flex text-[12px] md:text-[18px] font-normal button_background px-8 md:px-[50px] py-3 md:py-5 rounded-md md:border-[2px] border-[#FFEBA0] mb-[60px] md:mb-[90px]">
+          <button className="inline-flex text-[12px] md:text-[18px] font-normal button_background px-8 md:px-[50px] py-3 md:py-5 rounded-md md:border-[2px] border-[#FFEBA0] mb-[30px] md:mb-[90px]">
             About
           </button>
         </center>
@@ -58,7 +57,7 @@ const About = () => {
             <img
               data-aos="fade-left"
               data-aos-duration="1000"
-              src={aboutImg}
+              src="https://i.ibb.co/9cB78jC/Frame-1.png"
               alt=""
               className="relative !w-full max-w-[450px] h-[320px] md:h-full md:max-h-[550px] z-30"
             />
@@ -66,7 +65,11 @@ const About = () => {
         </div>
       </div>
       <div className="absolute top-[60%] right-0 transform -translate-y-1/2 z-20">
-        <img src={Ellipse} alt="" className=" w-auto h-[1200px]" />
+        <img
+          src="https://i.ibb.co/TT6XT4p/Ellipse-3.png"
+          alt=""
+          className=" w-auto h-[1200px]"
+        />
       </div>
     </div>
   );

@@ -1,4 +1,3 @@
-import Ellipse from "../assets/Ellipse 11.png";
 
 const Roadmap = () => {
   const hamstermapData = [
@@ -94,7 +93,7 @@ const Roadmap = () => {
         </div>
       </div>
       <div className="absolute top-[60%] transform -translate-y-1/2 left-0">
-        <img src={Ellipse} alt="" className="w-auto h-[1200px] object-cover" />
+        <img src="https://i.ibb.co/tbvvRKs/Ellipse-11.png" alt="" className="w-auto h-[1200px] object-cover" />
       </div>
     </div>
   );

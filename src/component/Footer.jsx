@@ -1,6 +1,3 @@
-import logo from "../assets/Branding.png";
-import twitter from "../assets/twitter Button.png";
-import telegram from "../assets/telegram Button.png";
 import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -14,7 +11,7 @@ const Footer = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            <img src={logo} alt="" className="w-auto h-[16px] md:h-[60px]" />
+            <img src="https://i.ibb.co/k95kz46/Branding.png" alt="" className="w-auto h-[16px] md:h-[60px]" />
           </a>
           <ul className="flex items-center space-x-2 md:space-x-8 lg:flex">
             <li>
@@ -68,7 +65,7 @@ const Footer = () => {
                 title="twitter"
               >
                 <img
-                  src={twitter}
+                  src="https://i.ibb.co/BGQnrVr/telegram-Button.png"
                   alt=""
                   className="w-auto h-[15px] md:h-[60px]"
                 />
@@ -82,7 +79,7 @@ const Footer = () => {
                 title="telegram"
               >
                 <img
-                  src={telegram}
+                  src="https://i.ibb.co/hYCyDd5/twitter-Button.png"
                   alt=""
                   className="w-auto h-[15px] md:h-[60px]"
                 />

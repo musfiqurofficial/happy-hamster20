@@ -1,6 +1,4 @@
-import poster from "../assets/thum.png";
-import Ellipse from "../assets/Ellipse 11.png";
-import EllipseRight from "../assets/Ellipse 10.png";
+
 import video from "../assets/happy hamester.mp4";
 
 const VideoSection = () => {
@@ -25,7 +23,7 @@ const VideoSection = () => {
           <div>
             <video
               controls
-              poster={poster}
+              poster="https://i.ibb.co/smtp4NN/thum.png"
               muted
               className="rounded-md"
             >
@@ -35,11 +33,11 @@ const VideoSection = () => {
         </div>
       </div>
       <div className="absolute top-[60%] transform -translate-y-1/2 left-0">
-        <img src={Ellipse} alt="" className="w-auto h-[1200px] object-cover" />
+        <img src="https://i.ibb.co/tbvvRKs/Ellipse-11.png" alt="" className="w-auto h-[1200px] object-cover" />
       </div>
       <div className="absolute top-[120%] transform -translate-y-1/2 right-0">
         <img
-          src={EllipseRight}
+          src="https://i.ibb.co/px8KnKr/Ellipse-10.png"
           alt=""
           className="w-auto h-[1200px] object-cover"
         />
