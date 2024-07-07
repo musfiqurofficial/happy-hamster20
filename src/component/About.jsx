@@ -1,5 +1,3 @@
-
-
 const About = () => {
   return (
     <div className="mb-[50px] mt-[50px] md:mt-[200px] relative">
@@ -50,7 +48,12 @@ const About = () => {
               data-aos-duration="4000"
               className="button-gradient-transition"
             >
-              Get the Whitepaper
+              <a
+                href="https://drive.google.com/file/d/1_HFqFN8B3sVpOvuQ25uumbtBsDZcToGz/view?usp=drivesdk"
+                target="_blank"
+              >
+                Get the Whitepaper
+              </a>
             </button>
           </div>
           <div className="relative">
