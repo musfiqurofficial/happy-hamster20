@@ -1,5 +1,8 @@
 import { useState } from "react";
-
+import logo from "../assets/Branding.png";
+import te from "../assets/telegram Button.png";
+import tw from "../assets/twitter Button.png";
+import b from "../assets/twitter Button (1).png";
 import { Link } from "react-scroll";
 
 export const Header = () => {
@@ -15,7 +18,7 @@ export const Header = () => {
           className="inline-flex items-center"
         >
           <img
-            src="https://i.ibb.co/k95kz46/Branding.png"
+            src={logo}
             alt=""
             className="w-auto h-[38px] md:h-[60px]"
           />
@@ -72,7 +75,7 @@ export const Header = () => {
               title="twitter"
             >
               <img
-                src="https://i.ibb.co/hYCyDd5/twitter-Button.png"
+                src={tw}
                 alt=""
                 className="w-auto h-[60px]"
               />
@@ -86,7 +89,7 @@ export const Header = () => {
               title="telegram"
             >
               <img
-                src="https://i.ibb.co/BGQnrVr/telegram-Button.png"
+                src={te}
                 alt=""
                 className="w-auto h-[60px]"
               />
@@ -101,7 +104,7 @@ export const Header = () => {
             onClick={() => setIsMenuOpen(true)}
           >
             <img
-              src="https://i.ibb.co/sJBhbJb/twitter-Button-1.png"
+              src={b}
               alt=""
               className="w-auto h-[30px]"
             />
@@ -179,7 +182,7 @@ export const Header = () => {
                           title="twitter"
                         >
                           <img
-                            src="https://i.ibb.co/hYCyDd5/twitter-Button.png"
+                            src={tw}
                             alt=""
                             className="w-auto h-[50px]"
                           />
@@ -193,7 +196,7 @@ export const Header = () => {
                           title="telegram"
                         >
                           <img
-                            src="https://i.ibb.co/BGQnrVr/telegram-Button.png"
+                            src={te}
                             alt=""
                             className="w-auto h-[50px]"
                           />

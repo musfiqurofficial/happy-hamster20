@@ -1,23 +1,27 @@
+import dj from "../assets/1djdji 1.png";
+import ht from "../assets/Hamster Tesla 1.png";
+import ch from "../assets/CHARITY 1.png";
+import e10 from "../assets/Ellipse 10.png";
 
 const Mission = () => {
   const missionCard = [
     {
       id: 1,
-      image: "https://i.ibb.co/sKWV24W/1djdji-1.png",
+      image: dj,
       title: "FINANCIAL FREEDOM",
       description:
         "Achieve financial freedom with our monthly rewards! Earn $1,500 every month for 12 months. Be a part of HappyHamster20 and enjoy the peace of mind that comes with consistent financial support.",
     },
     {
       id: 2,
-      image: "https://i.ibb.co/y0LHM92/Hamster-Tesla-1.png",
+      image: ht,
       title: "TESLA REWARD",
       description:
         "Invest early and drive away in style! All presale investors are automatically entered to win a Tesla Model S. Don’t miss out on this electrifying opportunity—join our presale now!",
     },
     {
       id: 3,
-      image: "https://i.ibb.co/ySw5z2K/CHARITY-1.png",
+      image: ch,
       title: "CHARITY PROJECT",
       description:
         "Making a difference together! We’re donating $100,000 to impactful charity projects. Join us in spreading happiness and support to those in need. Your investment in HappyHamster20 helps create a brighter future for everyone.",
@@ -60,7 +64,7 @@ const Mission = () => {
       </div>
       <div className="absolute top-[100%] transform -translate-y-1/2 right-0">
         <img
-          src="https://i.ibb.co/px8KnKr/Ellipse-10.png"
+          src={e10}
           alt=""
           className="w-auto h-[1200px] object-cover"
         />

@@ -11,6 +11,7 @@ import { Element } from "react-scroll";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import topImg from "./assets/Ellipse 9.png";
 
 const App = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const App = () => {
   }, []);
   return (
     <div className="relative">
-      <img src="https://i.ibb.co/Qp4S46K/Ellipse-9.png" alt="" className="absolute top-0" />
+      <img src={topImg} alt="" className="absolute top-0" />
       <Header />
       <HeroAria />
       <Element name="about">

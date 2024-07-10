@@ -1,4 +1,8 @@
-
+import r13 from "../assets/Rectangle 13.png";
+import cb from "../assets/Clipboard box.png";
+import c from "../assets/Copy.png";
+import e3 from "../assets/Ellipse 3.png";
+import h8 from "../assets/h8 2.png";
 import SlideBanner from "./SlideBanner";
 
 const Tokenomices = () => {
@@ -25,7 +29,7 @@ const Tokenomices = () => {
                 <img
                   data-aos="fade-right"
                   data-aos-duration="1000"
-                  src="https://i.ibb.co/DbfQgMg/Rectangle-13.png"
+                  src={r13}
                   alt=""
                   className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]"
                 />
@@ -42,7 +46,7 @@ const Tokenomices = () => {
                 <img
                   data-aos="fade-right"
                   data-aos-duration="1000"
-                  src="https://i.ibb.co/DbfQgMg/Rectangle-13.png"
+                  src={r13}
                   alt=""
                   className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]"
                 />
@@ -59,7 +63,7 @@ const Tokenomices = () => {
                 <img
                   data-aos="fade-right"
                   data-aos-duration="1000"
-                  src="https://i.ibb.co/DbfQgMg/Rectangle-13.png"
+                  src={r13}
                   alt=""
                   className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]"
                 />
@@ -76,7 +80,7 @@ const Tokenomices = () => {
                 <img
                   data-aos="fade-right"
                   data-aos-duration="1000"
-                  src="https://i.ibb.co/DbfQgMg/Rectangle-13.png"
+                  src={r13}
                   alt=""
                   className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]"
                 />
@@ -93,7 +97,7 @@ const Tokenomices = () => {
                 <img
                   data-aos="fade-right"
                   data-aos-duration="1000"
-                  src="https://i.ibb.co/DbfQgMg/Rectangle-13.png"
+                  src={r13}
                   alt=""
                   className="w-[60px] md:w-[80px] h-[60px] md:h-[80px]"
                 />
@@ -114,7 +118,7 @@ const Tokenomices = () => {
             >
               <button className="relative">
                 <img
-                  src="https://i.ibb.co/Dgj7QsL/Clipboard-box.png"
+                  src={cb}
                   alt=""
                   className="w-[50px] md:w-[70px] h-[45px] md:h-[60px]"
                 />
@@ -130,12 +134,12 @@ const Tokenomices = () => {
               />
               <button className="relative">
                 <img
-                  src="https://i.ibb.co/Dgj7QsL/Clipboard-box.png"
+                  src={cb}
                   alt=""
                   className="w-[50px] md:w-[70px] h-[45px] md:h-[60px]"
                 />
                 <img
-                  src="https://i.ibb.co/3m7JTCc/Copy.png"
+                  src={c}
                   alt=""
                   className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 md:w-[40px] md:h-[40px]"
                 />
@@ -146,7 +150,7 @@ const Tokenomices = () => {
             <img
               data-aos="fade-up-left"
               data-aos-duration="1000"
-              src="https://i.ibb.co/6nvdpNF/h8-2.png"
+              src={h8}
               alt=""
               className="relative z-20"
             />
@@ -154,11 +158,7 @@ const Tokenomices = () => {
         </div>
       </div>
       <div className="absolute top-[60%] right-0 transform -translate-y-1/2 z-10">
-        <img
-          src="https://i.ibb.co/TT6XT4p/Ellipse-3.png"
-          alt=""
-          className=" w-auto h-[1200px]"
-        />
+        <img src={e3} alt="" className=" w-auto h-[1200px]" />
       </div>
       <SlideBanner />
     </div>

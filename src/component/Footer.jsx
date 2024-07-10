@@ -1,4 +1,7 @@
 import { Link } from "react-scroll";
+import b from "../assets/Branding.png";
+import x from "../assets/twitter Button.png";
+import t from "../assets/telegram Button.png";
 
 const Footer = () => {
   return (
@@ -11,7 +14,7 @@ const Footer = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            <img src="https://i.ibb.co/k95kz46/Branding.png" alt="" className="w-auto h-[16px] md:h-[60px]" />
+            <img src={b} alt="" className="w-auto h-[16px] md:h-[60px]" />
           </a>
           <ul className="flex items-center space-x-2 md:space-x-8 lg:flex">
             <li>
@@ -65,7 +68,7 @@ const Footer = () => {
                 title="twitter"
               >
                 <img
-                  src="https://i.ibb.co/hYCyDd5/twitter-Button.png"
+                  src={x}
                   alt=""
                   className="w-auto h-[15px] md:h-[60px]"
                 />
@@ -79,7 +82,7 @@ const Footer = () => {
                 title="telegram"
               >
                 <img
-                  src="https://i.ibb.co/BGQnrVr/telegram-Button.png"
+                  src={t}
                   alt=""
                   className="w-auto h-[15px] md:h-[60px]"
                 />

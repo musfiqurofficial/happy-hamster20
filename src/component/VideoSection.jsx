@@ -1,5 +1,7 @@
-
 import video from "../assets/happy hamester.mp4";
+import e1 from "../assets/Ellipse 10.png";
+import e2 from "../assets/Ellipse 11.png";
+import t from "../assets/thum.png";
 
 const VideoSection = () => {
   return (
@@ -21,26 +23,17 @@ const VideoSection = () => {
           className="button_background w-full h-auto rounded-md border-[2px] border-[#FFEBA0] relative z-30 mt-10 md:mt-0"
         >
           <div>
-            <video
-              controls
-              poster="https://i.ibb.co/smtp4NN/thum.png"
-              muted
-              className="rounded-md"
-            >
+            <video controls poster={t} muted className="rounded-md">
               <source src={video} type="video/mp4" />
             </video>
           </div>
         </div>
       </div>
       <div className="absolute top-[60%] transform -translate-y-1/2 left-0">
-        <img src="https://i.ibb.co/tbvvRKs/Ellipse-11.png" alt="" className="w-auto h-[1200px] object-cover" />
+        <img src={e2} alt="" className="w-auto h-[1200px] object-cover" />
       </div>
       <div className="absolute top-[120%] transform -translate-y-1/2 right-0">
-        <img
-          src="https://i.ibb.co/px8KnKr/Ellipse-10.png"
-          alt=""
-          className="w-auto h-[1200px] object-cover"
-        />
+        <img src={e1} alt="" className="w-auto h-[1200px] object-cover" />
       </div>
     </div>
   );

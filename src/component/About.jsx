@@ -1,3 +1,6 @@
+import fr from "../assets/Frame 1.png";
+import el3 from "../assets/Ellipse 3.png";
+
 const About = () => {
   return (
     <div className="mb-[50px] mt-[50px] md:mt-[200px] relative">
@@ -60,7 +63,7 @@ const About = () => {
             <img
               data-aos="fade-left"
               data-aos-duration="1000"
-              src="https://i.ibb.co/9cB78jC/Frame-1.png"
+              src={fr}
               alt=""
               className="relative !w-full max-w-[450px] h-[320px] md:h-full md:max-h-[550px] z-30"
             />
@@ -69,7 +72,7 @@ const About = () => {
       </div>
       <div className="absolute top-[60%] right-0 transform -translate-y-1/2 z-20">
         <img
-          src="https://i.ibb.co/TT6XT4p/Ellipse-3.png"
+          src={el3}
           alt=""
           className=" w-auto h-[1200px]"
         />

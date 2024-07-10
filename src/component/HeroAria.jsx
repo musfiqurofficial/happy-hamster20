@@ -1,5 +1,8 @@
-import "react-lazy-load-image-component/src/effects/blur.css";
 import SlideBanner from "./SlideBanner";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import el10 from "../assets/Ellipse 10.png";
+import el11 from "../assets/Ellipse 11.png";
+import h6 from "../assets/h6 1.png";
 
 const HeroAria = () => {
   return (
@@ -34,22 +37,22 @@ const HeroAria = () => {
           className="relative z-30 -mt-[20px] md:-mt-[60px]"
         >
           <img
-            src="https://i.ibb.co/99n1rvy/h6-1.png"
+            src={h6}
             alt="h6-1"
             border="0"
             className="!w-full h-full"
           ></img>
         </div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-0 -translate-y-[30%] z-50">
+        <div className="absolute top-1/2 left-0 transform -translate-x-0 -translate-y-[30%] z-50">
           <img
-            src="https://i.ibb.co/px8KnKr/Ellipse-10.png"
+            src={el11}
             alt=""
             className="w-auto h-auto"
           />
         </div>
-        <div className="absolute top-1/2 right-1/2 transform -translate-x-0 -translate-y-[30%] z-50">
+        <div className="absolute top-1/2 right-0 transform -translate-x-0 -translate-y-[30%] z-50">
           <img
-            src="https://i.ibb.co/tbvvRKs/Ellipse-11.png"
+            src={el10}
             alt=""
             className="w-auto h-auto"
           />
